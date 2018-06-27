@@ -11,22 +11,38 @@ The 3-digit display should show L or C value of connected component with +/-2% a
 
 A low pass filter takes DC average of the pulse that contains phase difference. DC voltage represents phase difference. There is a nonlinear amplifier to make relation linear between measured L or C value with DC voltage. ADC converts DC voltage to digital value, and generate 4-bit BCD (binary coded decimal) code that corresponds decimal value of DC voltage. ADC also provide switching operation between 3 seven segment display that is driven by 7-segment driver. 7-segment driver decodes 4-bit BCD to 7-bit value, and 3-digit display shows corresponding digit number to this 7-bit value.   
 
-### Oscillators
+## 2.1. Oscillators
 
-<p align="center"><img src="/images/2.jpg"/></p>
+<img src="/images/2.jpg"/>
 
-<p align="center"><img src="/images/3.jpg"/></p>
+<img src="/images/3.jpg"/>
 
-<p align="center"><img src="/images/4.jpg"/></p>
+<img src="/images/4.jpg"/>
 
-<p align="center"><img src="/images/5.jpg"/></p>
+<img src="/images/5.jpg"/>
 
-<p align="center"><img src="/images/6.jpg"/></p>
+<img src="/images/6.jpg"/>
 
-<p align="center"><img src="/images/7.jpg"/></p>
+<img src="/images/7.jpg"/>
 
-<p align="center"><img src="/images/8.jpg"/></p>
+<img src="/images/8.jpg"/>
 
-<p align="center"><img src="/images/9.jpg"/></p>
+## Conclusion
 
+<img src="/images/9.jpg"/>
+
+## References
+1. http://ehelion.net/projects/digitalclock/555timer.html
+
+1. https://en.wikipedia.org/wiki/Phase_detector#Phase-frequency_detector
+
+1. http://whatis.techtarget.com/definition/nonlinearity
+
+1. http://www.asdlib.org/onlineArticles/elabware/Scheeline_ADC/ADC_ADC_Dual_Slope.html
+
+1. http://www.mouser.com/ds/2/268/21394b-72903.pdf    
+
+1. http://www.electronics-tutorials.ws/blog/7-segment-display-tutorial.html
+
+1. http://www.ti.com/lit/ds/symlink/cd4543b.pdf  
 
