@@ -19,8 +19,6 @@ A low pass filter takes DC average of the pulse that contains phase difference. 
 
 <img src="images/4.jpg"/>
 
-<img src="images/5.jpg"/>
-
 <img src="images/6.jpg"/>
 
 <img src="images/7.jpg"/>
